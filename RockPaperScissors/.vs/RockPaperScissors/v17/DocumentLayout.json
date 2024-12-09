@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moham\\source\\repos\\RockPaperScissors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE24B74D-7DE8-4A93-85E1-9D27743103FE}|RockPaperScissors\\RockPaperScissors.csproj|c:\\users\\moham\\source\\repos\\rockpaperscissors\\rockpaperscissors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE24B74D-7DE8-4A93-85E1-9D27743103FE}|RockPaperScissors\\RockPaperScissors.csproj|solutionrelative:rockpaperscissors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\RockPaperScissors\\RockPaperScissors\\Program.cs",
+              "RelativeDocumentMoniker": "RockPaperScissors\\Program.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\RockPaperScissors\\RockPaperScissors\\Program.cs",
+              "RelativeToolTip": "RockPaperScissors\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T23:49:55.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+C:\Users\moham\source\repos\Warehouse System Main\Warehouse System Main\obj\Debug\Warehouse System Main.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\Warehouse System Main\Warehouse System Main\obj\Debug\Warehouse System Main.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\Warehouse System Main\Warehouse System Main\bin\Debug\Warehouse System Main.exe.config
+C:\Users\moham\source\repos\Warehouse System Main\Warehouse System Main\bin\Debug\Warehouse System Main.exe
+C:\Users\moham\source\repos\Warehouse System Main\Warehouse System Main\bin\Debug\Warehouse System Main.pdb
+C:\Users\moham\source\repos\Warehouse System Main\Warehouse System Main\obj\Debug\Warehouse System Main.exe
+C:\Users\moham\source\repos\Warehouse System Main\Warehouse System Main\obj\Debug\Warehouse System Main.pdb
