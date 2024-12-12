@@ -15,9 +15,16 @@ namespace RockPaperScissors
             string player;
             string computer;
             string answer;
+            int computerscore;
+            int playerscore;
+
+            playerscore = 0;
+            computerscore = 0;
 
             while (letsplayagain)
             {
+                
+
                 player = "";
                 computer = "";
                 answer = "";
@@ -30,6 +37,7 @@ namespace RockPaperScissors
                 }
 
                 int randomNumber = rand.Next(1, 4);
+
                 switch (randomNumber)
                 {
                     case 1:
@@ -58,10 +66,12 @@ namespace RockPaperScissors
                         else if (computer == "paper")
                         {
                             Console.WriteLine("You lose.");
+                            computerscore++;
                         }
                         else
                         {
                             Console.WriteLine("You win.");
+                            playerscore++;
                         }
                         break;
 
@@ -69,6 +79,7 @@ namespace RockPaperScissors
                         if (computer == "rock")
                         {
                             Console.WriteLine("You win.");
+                            playerscore++;
                         }
                         else if (computer == "paper")
                         {
@@ -77,6 +88,7 @@ namespace RockPaperScissors
                         else
                         {
                             Console.WriteLine("You lose.");
+                            computerscore++;
                         }
                         break;
 
@@ -84,10 +96,12 @@ namespace RockPaperScissors
                         if (computer == "rock")
                         {
                             Console.WriteLine("You lose.");
+                            computerscore++;
                         }
                         else if (computer == "paper")
                         {
                             Console.WriteLine("You win.");
+                            playerscore++;
                         }
                         else
                         {
@@ -95,6 +109,9 @@ namespace RockPaperScissors
                         }
                         break;
                 }
+
+                Console.WriteLine("Your score: " + playerscore);
+                Console.WriteLine("Computer score: " + computerscore);
 
                 Console.WriteLine("Would you like to play again? y/n:");
                 answer = Console.ReadLine();
@@ -104,12 +121,13 @@ namespace RockPaperScissors
                 {
                     letsplayagain = true;
                 }
-                else
+                else if (answer == "n")
                 {
                     letsplayagain = false;
+                    Console.WriteLine("Thanks for playing!");
                 }
 
-                Console.WriteLine("Thanks for playing!");
+                
             }
         }
     }
